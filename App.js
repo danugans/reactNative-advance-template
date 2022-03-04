@@ -4,13 +4,9 @@ import { NativeBaseProvider, extendTheme } from "native-base";
 
 // Import font with Expo
 import AppLoading from "expo-app-loading";
-import {
-  useFonts,
-  BalsamiqSans_400Regular,
-  BalsamiqSans_400Regular_Italic,
-} from "@expo-google-fonts/balsamiq-sans";
+import { useFonts, BalsamiqSans_400Regular, BalsamiqSans_400Regular_Italic } from "@expo-google-fonts/balsamiq-sans";
 
-// Import Container
+// Import Container here
 import Container from "./Container";
 
 export default function App() {
